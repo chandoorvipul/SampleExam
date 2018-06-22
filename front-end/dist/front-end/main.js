@@ -418,7 +418,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "Congratulations {{ formData.firstName }}  {{ formData.lastName }}, your formData has been submitted with the folllowing details\n  \n  <h1>Summary</h1>\n  <ul>\n    <li>Gender: {{ formData.gender }}</li>\n    <li>Age:  {{ formData.age }}</li>\n    <li>Number of Tickets: {{ formData.numberOfTickets }}</li>\n  </ul>"
+module.exports = "Congratulations {{ formData.firstName }}  {{ formData.lastName }}, your form has been submitted with the folllowing details\n  \n  <h1>Summary</h1>\n  <ul>\n    <li>Gender: {{ formData.gender }}</li>\n    <li>Age:  {{ formData.age }}</li>\n    <li>Number of Tickets: {{ formData.numberOfTickets }}</li>\n    <li>from {{ formData.from}}</li>\n    <li>to {{formData.to }}</li>\n  </ul>"
 
 /***/ }),
 
